@@ -1,0 +1,25 @@
+.compass-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(auto);
+    margin:0px;
+}
+.compass-item {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.compass-item:hover {
+    font-weight: 600;
+    transform: scale(1.06);
+}

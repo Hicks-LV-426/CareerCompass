@@ -1,0 +1,5 @@
+<app-compass-tree-view *ngIf="compassData" [compassTree]="compassData"></app-compass-tree-view>
+<div *ngIf="!compassData" style="color: red;">
+    Ups... Compass data file {{compassFileName}} not found.
+</div>
+

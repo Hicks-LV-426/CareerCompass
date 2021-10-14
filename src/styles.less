@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin:0px;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+div {
+  display: block;
+}
+
+app-root {
+  height: 100%;
+  width:100%;
+  margin: 0;
+}
+
+app-compass-view {
+  height: 100%;
+  width:100%;
+  display: inline-block;
+}
+
+app-compass-tree-view {
+  display: inline-block;
+}
+
+app-compass-items-view {
+  display: flex;
+}
+.content
+{
+  display: grid;
+  align-content: stretch;
+  margin: 0px;
+  padding: 0px;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  width:100%;
+}
+
+.content-header {
+  color: #f3f2f1;
+  padding:0.8rem;
+  font-weight: bold;
+  border-bottom: 2px solid #0078d43d;
+}
+
+.content-body {
+  padding:0rem;
+  height: 100%;
+  width:100%;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}

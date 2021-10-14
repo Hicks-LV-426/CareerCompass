@@ -1,0 +1,6 @@
+<div class="compass-list">
+    <div *ngFor="let item of items" class="ms-depth-4 compass-item noselect" [title]="item.description"
+        [routerLink]="['/compass', item.file]">
+        {{ item.name }}
+    </div>
+</div>

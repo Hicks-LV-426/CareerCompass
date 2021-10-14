@@ -1,0 +1,57 @@
+name: DevOps Career Compass
+items:
+  - name: Is it for you?
+    type: category
+    url: null
+    items:
+      - name: What is DevOps
+        type: article
+        url: https://newrelic.com/devops/what-is-devops
+        items:
+          - name: sub-item 1
+            type: branch
+            items:
+              - name: VS Code
+                type: file
+                url: https://code.visualstudio.com/Download
+              - name: sub-sub-item 2
+      - name: DevOps Explained
+        type: video
+        url: https://www.youtube.com/watch?v=MnyvgFDh-kw&t=2s
+      - name: DevOps Foundations
+        type: course
+        url: https://www.linkedin.com/learning/devops-foundations
+      - name: The Phoenix Project
+        type: book
+        url: https://www.amazon.com/dp/1942788290/ref=cm_sw_em_r_mt_dp_H22E94KNVJDBV4647VPQ
+      - name: Other Information
+        type: other
+        url: null
+      - name: Docker Certified Associate
+        type: certificate
+        url: https://acloudguru.com/course/docker-certified-associate-dca
+      - name: Choose One
+        type: branch
+        url: null
+  - name: Install Beginner Tools
+    type: category
+  - name: Basic Code Editing
+    type: category
+  - name: Software Development Basics
+    type: category
+    items:
+      - name: Creating Software Explained
+        type: video
+        url: https://www.youtube.com/watch?v=bWdeGTJxMQc
+      - name: Git 101 Basics
+        type: video
+        url: https://www.youtube.com/watch?v=WBg9mlpzEYU&list=PL0M0zPgJ3HSesuPIObeUVQNbKqlw5U2Vr&index=4
+      - name: Programming with JavaScript
+        type: video
+        url: https://www.youtube.com/watch?v=PkZNo7MFNFg
+  - name: Package Management
+    type: category
+  - name: Understanding CI and CD
+    type: category
+  - name: Using Git
+    type: category

@@ -1,0 +1,13 @@
+<div *ngIf="item" [ngSwitch]="item.type">
+    <app-compass-card *ngSwitchCase="'video'" [color]="'#da3b01'" [icon]="'ms-Icon ms-Icon--MSNVideosSolid'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'article'" [color]="'#8cbd18'" [icon]="'ms-Icon ms-Icon--Articles'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'certificate'" [color]="'#e3008c'" [icon]="'ms-Icon ms-Icon--Medal'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'book'" [color]="'#ffaa44'" [icon]="'ms-Icon ms-Icon--ReadingMode'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'course'" [color]="'#0078d4'" [icon]="'ms-Icon ms-Icon--D365TalentLearn'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'branch'" [color]="'#888888'" [icon]="'ms-Icon ms-Icon--BranchFork'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchCase="'file'" [color]="'#5c2e91'" [icon]="'ms-Icon ms-Icon--Installation'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <app-compass-card *ngSwitchDefault [color]="'#888888'" [icon]="'ms-Icon ms-Icon--ChevronRightSmall'" [text]="item.name" [url]="item.url"></app-compass-card>
+    <div *ngIf="item.items" style="margin-left: 2rem;">
+        <app-compass-items-view [items]="item.items"></app-compass-items-view>
+    </div>
+</div>

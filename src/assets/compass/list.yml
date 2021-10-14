@@ -1,0 +1,10 @@
+compassFiles:
+  - name: DevOps Compass
+    file: 'devops.compass.yaml'
+    description: 'some text to describe the compass'
+  - name: .NET Developer Compass
+    file: 'net.compass.yaml'
+    description: 'some text to describe the compass'
+  - name: 'Item with a lot of very long text and even more text'
+    file: 'long.compass.yaml'
+    description: 'some text to describe the compass'

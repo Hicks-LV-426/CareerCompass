@@ -1,0 +1,6 @@
+<div style="display: flex;align-items: center; margin:0.5rem; padding: 0.5rem; border: 1px solid black; border-radius: 4px; position: relative; overflow: hidden;" [style.border-color]="color" class="noselect">
+    <i [class]="icon" aria-hidden="true" style="font-size: 1.4rem; margin-right: 0.1rem;" [style.color]="color"></i>
+    <div style="display: block; position: absolute; left: 0px; top:0px; height: 100%; width: 4px;" [style.background-color]="color"></div>
+    <a *ngIf="url" [href]="url" target="_blank" style="color:#0078d4; text-decoration: none;">{{text}}</a>
+    <span *ngIf="!url">{{text}}</span>
+</div>
